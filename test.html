@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        //document.write("say \"hello\" ");
+        //document.write('say "hello"');
+        var num1 = 10;
+        var num2 = 20;
+        var num3 = 3;
+        var num4 = "10";
+        var result;
+
+        /*result = num1 + num4;
+        // document 객체.(접근자) write 메소드
+        document.write(result, "<br>");     // body 태그에 1010(문자열) 출력*/
+
+        /* num1 += num4;
+        document.write(num1, "<br><br>") */
+
+        /* result = true ? num1 : num2;
+        document.write(result, "<br><br>") */
+
+        /* 질의 응답 창을 띄워 입력 받아 짝수 홀수 판별 후 화면에 출력 */
+        var num = prompt("숫자를 입력하세요.", "0");
+        result = num % 2 == 0 ? "짝수" : "홀수";
+        document.write(result, "<br><br>")
+    </script>
+    <title>test Sample</title>
+</head>
+<body>
+    Welcome to My World!<br>
+    내 세계로 오신 것을 환영합니다!
+</body>
+</html>
